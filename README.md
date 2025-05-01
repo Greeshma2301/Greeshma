@@ -107,3 +107,66 @@ print(nestnum[1])
 print(nestnum[2][0])
 print(nestnum[1][1])
 
+
+python programms using different datatypes
+#output statements
+print("it is a sample")
+print('its another sample')
+print('number:',200)
+
+num1=input()
+num2=input()
+total=num1+num2
+print(total)
+
+num1=int(input())
+num2=int(input())
+total=num1+num2
+print(total)
+
+num1=int(input())
+num2=int(input())
+total=num1*num2
+print(total)
+
+#string operations
+str1=input("enter a name")
+str2=input("enter a name")
+fullname=str1+str2
+print(fullname)
+
+#string operations
+str1=str(input("enter a name"))
+str2=str(input("enter a name"))
+fullname=str1+str2
+print(fullname)
+
+#float datatype sample
+n1=float(input("enter a float value"))
+n2=float(input("enter a float value"))
+print("division:",n1/n2)
+
+#string sample operations
+s=str(input("enter a string:"))
+print(s)
+print(len(s))
+print(s.upper())
+print(s.lower())
+print(s[1:3])
+print(s[::-1])
+
+#list operations
+fruits=['apple','kiwi','orange']
+print(fruits)
+print('apple in fruits')
+print("insert:")
+fruits.append('banana')
+print(fruits)
+print("delete:")
+fruits.remove('apple')
+print(fruits)
+print(fruits[0])
+print(fruits[-3])
+
+
+
